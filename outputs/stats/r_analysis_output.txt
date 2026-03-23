@@ -1,0 +1,2029 @@
+================================================================
+  STATISTICAL REPORT — Child Placement by Florida County
+  Generated: 2026-03-19 14:05:55 
+================================================================
+
+--- Descriptive Statistics (children_count) ---
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+    100    1360    3563    6885    9378   34024 
+
+SD: 8072.919 
+
+--- Regression Model ---
+
+Call:
+lm(formula = as.formula(formula_str), data = data)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-13446.1  -3834.4   -967.2   2940.0  19547.8 
+
+Coefficients:
+                      Estimate Std. Error t value Pr(>|t|)    
+(Intercept)              34313       7512   4.568  2.4e-05 ***
+pct_physical_abuse      -34904      35236  -0.991 0.325740    
+pct_physical_neglect     40127      79379   0.506 0.614993    
+pct_domestic_violence   -18231      30307  -0.602 0.549671    
+pct_drug_abuse_parent   -57204      15296  -3.740 0.000404 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Residual standard error: 6803 on 62 degrees of freedom
+Multiple R-squared:  0.3329,	Adjusted R-squared:  0.2898 
+F-statistic: 7.734 on 4 and 62 DF,  p-value: 4.021e-05
+
+
+--- Correlation Matrix ---
+                                       Total Children Total Placements
+Total Children                                  1.000            0.982
+Total Placements                                0.982            1.000
+Avg Placement Duration                         -0.401           -0.418
+Avg Removal Age                                 0.585            0.613
+Physical Abuse                                  0.059            0.055
+Count Physical Abuse                            0.978            0.993
+Sexual Abuse                                   -0.003            0.001
+Count Sexual Abuse                              0.946            0.979
+Emotional Abuse Neglect                         0.627            0.574
+Count Emotional Abuse Neglect                   0.901            0.897
+Alcohol Abuse Child                            -0.270           -0.259
+Count Alcohol Abuse Child                       0.834            0.848
+Drug Abuse Child                               -0.014            0.005
+Count Drug Abuse Child                          0.896            0.936
+Alcohol Abuse Parent                           -0.442           -0.466
+Count Alcohol Abuse Parent                      0.914            0.893
+Drug Abuse Parent                              -0.554           -0.572
+Count Drug Abuse Parent                         0.978            0.964
+Physical Neglect                                0.063            0.045
+Count Physical Neglect                          0.959            0.969
+Domestic Violence                              -0.406           -0.435
+Count Domestic Violence                         0.965            0.939
+Inadequate Housing                             -0.058           -0.110
+Count Inadequate Housing                        0.961            0.955
+Child Behavior Problem                          0.600            0.619
+Count Child Behavior Problem                    0.820            0.884
+Child Disability                                0.071            0.071
+Count Child Disability                          0.898            0.921
+Incarceration of Parent                        -0.248           -0.267
+Count Incarceration of Parent                   0.954            0.953
+Death of Parent                                 0.167            0.172
+Count Death of Parent                           0.908            0.939
+Caregiver Inability to Cope                     0.319            0.327
+Count Caregiver Inability to Cope               0.911            0.956
+Abandonment                                     0.583            0.588
+Count Abandonment                               0.918            0.962
+Inadequate Supervision                          0.016           -0.007
+Count Inadequate Supervision                    0.950            0.959
+Medical Neglect                                -0.063           -0.089
+Count Medical Neglect                           0.972            0.967
+Csec                                            0.145            0.189
+Count Csec                                      0.587            0.682
+Labor Trafficking                               0.264            0.257
+Count Labor Trafficking                         0.632            0.684
+Sexual Abuse Sexual Exploitation                0.080            0.090
+Count Sexual Abuse Sexual Exploitation          0.742            0.801
+Race Black                                      0.581            0.598
+Race White                                     -0.564           -0.587
+Race Asian                                      0.103            0.073
+Race American                                  -0.180           -0.168
+Race Hawaiian                                  -0.109           -0.108
+Fl Multi Rcl                                   -0.139           -0.154
+Hispanic                                           NA               NA
+Male                                               NA               NA
+                                       Avg Placement Duration Avg Removal Age
+Total Children                                         -0.401           0.585
+Total Placements                                       -0.418           0.613
+Avg Placement Duration                                  1.000          -0.717
+Avg Removal Age                                        -0.717           1.000
+Physical Abuse                                         -0.124           0.089
+Count Physical Abuse                                   -0.402           0.604
+Sexual Abuse                                           -0.222           0.287
+Count Sexual Abuse                                     -0.471           0.680
+Emotional Abuse Neglect                                -0.086           0.361
+Count Emotional Abuse Neglect                          -0.235           0.468
+Alcohol Abuse Child                                    -0.068          -0.013
+Count Alcohol Abuse Child                              -0.590           0.722
+Drug Abuse Child                                       -0.043           0.257
+Count Drug Abuse Child                                 -0.510           0.692
+Alcohol Abuse Parent                                    0.102          -0.243
+Count Alcohol Abuse Parent                             -0.488           0.594
+Drug Abuse Parent                                       0.389          -0.694
+Count Drug Abuse Parent                                -0.413           0.562
+Physical Neglect                                       -0.148           0.109
+Count Physical Neglect                                 -0.403           0.579
+Domestic Violence                                       0.371          -0.529
+Count Domestic Violence                                -0.372           0.516
+Inadequate Housing                                     -0.123           0.018
+Count Inadequate Housing                               -0.415           0.561
+Child Behavior Problem                                 -0.609           0.888
+Count Child Behavior Problem                           -0.551           0.745
+Child Disability                                       -0.018           0.072
+Count Child Disability                                 -0.483           0.650
+Incarceration of Parent                                 0.029          -0.117
+Count Incarceration of Parent                          -0.501           0.649
+Death of Parent                                        -0.109           0.107
+Count Death of Parent                                  -0.407           0.631
+Caregiver Inability to Cope                            -0.435           0.462
+Count Caregiver Inability to Cope                      -0.460           0.650
+Abandonment                                            -0.574           0.868
+Count Abandonment                                      -0.500           0.708
+Inadequate Supervision                                 -0.129           0.012
+Count Inadequate Supervision                           -0.441           0.594
+Medical Neglect                                         0.111          -0.067
+Count Medical Neglect                                  -0.393           0.570
+Csec                                                    0.021           0.280
+Count Csec                                             -0.461           0.610
+Labor Trafficking                                      -0.237           0.309
+Count Labor Trafficking                                -0.314           0.468
+Sexual Abuse Sexual Exploitation                       -0.115           0.215
+Count Sexual Abuse Sexual Exploitation                 -0.498           0.696
+Race Black                                             -0.181           0.447
+Race White                                              0.135          -0.429
+Race Asian                                             -0.199           0.039
+Race American                                           0.166          -0.140
+Race Hawaiian                                          -0.124          -0.034
+Fl Multi Rcl                                            0.022           0.028
+Hispanic                                                   NA              NA
+Male                                                       NA              NA
+                                       Physical Abuse Count Physical Abuse
+Total Children                                  0.059                0.978
+Total Placements                                0.055                0.993
+Avg Placement Duration                         -0.124               -0.402
+Avg Removal Age                                 0.089                0.604
+Physical Abuse                                  1.000                0.116
+Count Physical Abuse                            0.116                1.000
+Sexual Abuse                                    0.371                0.026
+Count Sexual Abuse                              0.086                0.976
+Emotional Abuse Neglect                         0.103                0.573
+Count Emotional Abuse Neglect                   0.049                0.888
+Alcohol Abuse Child                             0.165               -0.264
+Count Alcohol Abuse Child                       0.038                0.829
+Drug Abuse Child                               -0.175               -0.015
+Count Drug Abuse Child                          0.023                0.922
+Alcohol Abuse Parent                           -0.254               -0.479
+Count Alcohol Abuse Parent                      0.026                0.880
+Drug Abuse Parent                              -0.343               -0.596
+Count Drug Abuse Parent                         0.021                0.950
+Physical Neglect                                0.209                0.048
+Count Physical Neglect                          0.060                0.962
+Domestic Violence                               0.166               -0.436
+Count Domestic Violence                         0.050                0.929
+Inadequate Housing                             -0.220               -0.126
+Count Inadequate Housing                        0.038                0.944
+Child Behavior Problem                          0.112                0.615
+Count Child Behavior Problem                    0.047                0.872
+Child Disability                               -0.007                0.080
+Count Child Disability                          0.078                0.923
+Incarceration of Parent                        -0.496               -0.297
+Count Incarceration of Parent                   0.001                0.930
+Death of Parent                                -0.099                0.169
+Count Death of Parent                           0.047                0.933
+Caregiver Inability to Cope                     0.092                0.342
+Count Caregiver Inability to Cope               0.077                0.958
+Abandonment                                    -0.050                0.576
+Count Abandonment                               0.043                0.950
+Inadequate Supervision                         -0.165               -0.016
+Count Inadequate Supervision                    0.046                0.951
+Medical Neglect                                 0.252               -0.072
+Count Medical Neglect                           0.086                0.964
+Csec                                           -0.053                0.189
+Count Csec                                      0.032                0.680
+Labor Trafficking                               0.018                0.272
+Count Labor Trafficking                         0.095                0.710
+Sexual Abuse Sexual Exploitation                0.193                0.088
+Count Sexual Abuse Sexual Exploitation          0.041                0.799
+Race Black                                      0.224                0.630
+Race White                                     -0.207               -0.620
+Race Asian                                     -0.103                0.072
+Race American                                  -0.153               -0.172
+Race Hawaiian                                  -0.152               -0.117
+Fl Multi Rcl                                   -0.036               -0.146
+Hispanic                                           NA                   NA
+Male                                               NA                   NA
+                                       Sexual Abuse Count Sexual Abuse
+Total Children                               -0.003              0.946
+Total Placements                              0.001              0.979
+Avg Placement Duration                       -0.222             -0.471
+Avg Removal Age                               0.287              0.680
+Physical Abuse                                0.371              0.086
+Count Physical Abuse                          0.026              0.976
+Sexual Abuse                                  1.000              0.097
+Count Sexual Abuse                            0.097              1.000
+Emotional Abuse Neglect                      -0.060              0.522
+Count Emotional Abuse Neglect                -0.049              0.851
+Alcohol Abuse Child                           0.010             -0.242
+Count Alcohol Abuse Child                     0.041              0.852
+Drug Abuse Child                             -0.279              0.035
+Count Drug Abuse Child                        0.041              0.958
+Alcohol Abuse Parent                         -0.030             -0.479
+Count Alcohol Abuse Parent                   -0.026              0.853
+Drug Abuse Parent                            -0.378             -0.605
+Count Drug Abuse Parent                      -0.041              0.919
+Physical Neglect                              0.047              0.025
+Count Physical Neglect                       -0.021              0.935
+Domestic Violence                            -0.223             -0.465
+Count Domestic Violence                      -0.040              0.884
+Inadequate Housing                            0.132             -0.153
+Count Inadequate Housing                     -0.041              0.906
+Child Behavior Problem                        0.053              0.674
+Count Child Behavior Problem                  0.072              0.930
+Child Disability                              0.093              0.088
+Count Child Disability                        0.036              0.928
+Incarceration of Parent                      -0.145             -0.263
+Count Incarceration of Parent                 0.004              0.934
+Death of Parent                              -0.385              0.184
+Count Death of Parent                         0.024              0.948
+Caregiver Inability to Cope                  -0.044              0.350
+Count Caregiver Inability to Cope             0.030              0.966
+Abandonment                                   0.145              0.626
+Count Abandonment                             0.038              0.978
+Inadequate Supervision                       -0.147             -0.039
+Count Inadequate Supervision                 -0.030              0.928
+Medical Neglect                               0.087             -0.098
+Count Medical Neglect                        -0.012              0.934
+Csec                                          0.103              0.225
+Count Csec                                    0.093              0.741
+Labor Trafficking                            -0.065              0.255
+Count Labor Trafficking                       0.000              0.701
+Sexual Abuse Sexual Exploitation             -0.082              0.113
+Count Sexual Abuse Sexual Exploitation        0.091              0.858
+Race Black                                    0.120              0.608
+Race White                                   -0.108             -0.600
+Race Asian                                   -0.071              0.041
+Race American                                -0.246             -0.169
+Race Hawaiian                                 0.129             -0.120
+Fl Multi Rcl                                 -0.004             -0.160
+Hispanic                                         NA                 NA
+Male                                             NA                 NA
+                                       Emotional Abuse Neglect
+Total Children                                           0.627
+Total Placements                                         0.574
+Avg Placement Duration                                  -0.086
+Avg Removal Age                                          0.361
+Physical Abuse                                           0.103
+Count Physical Abuse                                     0.573
+Sexual Abuse                                            -0.060
+Count Sexual Abuse                                       0.522
+Emotional Abuse Neglect                                  1.000
+Count Emotional Abuse Neglect                            0.799
+Alcohol Abuse Child                                     -0.087
+Count Alcohol Abuse Child                                0.447
+Drug Abuse Child                                        -0.151
+Count Drug Abuse Child                                   0.414
+Alcohol Abuse Parent                                    -0.349
+Count Alcohol Abuse Parent                               0.520
+Drug Abuse Parent                                       -0.466
+Count Drug Abuse Parent                                  0.577
+Physical Neglect                                         0.059
+Count Physical Neglect                                   0.597
+Domestic Violence                                       -0.190
+Count Domestic Violence                                  0.606
+Inadequate Housing                                       0.010
+Count Inadequate Housing                                 0.586
+Child Behavior Problem                                   0.447
+Count Child Behavior Problem                             0.479
+Child Disability                                        -0.112
+Count Child Disability                                   0.430
+Incarceration of Parent                                 -0.288
+Count Incarceration of Parent                            0.505
+Death of Parent                                          0.173
+Count Death of Parent                                    0.585
+Caregiver Inability to Cope                              0.096
+Count Caregiver Inability to Cope                        0.433
+Abandonment                                              0.425
+Count Abandonment                                        0.544
+Inadequate Supervision                                  -0.066
+Count Inadequate Supervision                             0.566
+Medical Neglect                                          0.015
+Count Medical Neglect                                    0.599
+Csec                                                     0.058
+Count Csec                                               0.131
+Labor Trafficking                                        0.140
+Count Labor Trafficking                                  0.343
+Sexual Abuse Sexual Exploitation                         0.040
+Count Sexual Abuse Sexual Exploitation                   0.305
+Race Black                                               0.495
+Race White                                              -0.495
+Race Asian                                              -0.025
+Race American                                           -0.102
+Race Hawaiian                                           -0.221
+Fl Multi Rcl                                            -0.130
+Hispanic                                                    NA
+Male                                                        NA
+                                       Count Emotional Abuse Neglect
+Total Children                                                 0.901
+Total Placements                                               0.897
+Avg Placement Duration                                        -0.235
+Avg Removal Age                                                0.468
+Physical Abuse                                                 0.049
+Count Physical Abuse                                           0.888
+Sexual Abuse                                                  -0.049
+Count Sexual Abuse                                             0.851
+Emotional Abuse Neglect                                        0.799
+Count Emotional Abuse Neglect                                  1.000
+Alcohol Abuse Child                                           -0.272
+Count Alcohol Abuse Child                                      0.667
+Drug Abuse Child                                              -0.113
+Count Drug Abuse Child                                         0.733
+Alcohol Abuse Parent                                          -0.445
+Count Alcohol Abuse Parent                                     0.772
+Drug Abuse Parent                                             -0.510
+Count Drug Abuse Parent                                        0.861
+Physical Neglect                                               0.051
+Count Physical Neglect                                         0.910
+Domestic Violence                                             -0.340
+Count Domestic Violence                                        0.874
+Inadequate Housing                                            -0.102
+Count Inadequate Housing                                       0.866
+Child Behavior Problem                                         0.504
+Count Child Behavior Problem                                   0.760
+Child Disability                                              -0.013
+Count Child Disability                                         0.746
+Incarceration of Parent                                       -0.303
+Count Incarceration of Parent                                  0.816
+Death of Parent                                                0.175
+Count Death of Parent                                          0.869
+Caregiver Inability to Cope                                    0.171
+Count Caregiver Inability to Cope                              0.776
+Abandonment                                                    0.489
+Count Abandonment                                              0.856
+Inadequate Supervision                                        -0.023
+Count Inadequate Supervision                                   0.870
+Medical Neglect                                               -0.071
+Count Medical Neglect                                          0.872
+Csec                                                           0.084
+Count Csec                                                     0.422
+Labor Trafficking                                              0.196
+Count Labor Trafficking                                        0.566
+Sexual Abuse Sexual Exploitation                               0.026
+Count Sexual Abuse Sexual Exploitation                         0.569
+Race Black                                                     0.565
+Race White                                                    -0.559
+Race Asian                                                     0.040
+Race American                                                 -0.134
+Race Hawaiian                                                 -0.142
+Fl Multi Rcl                                                  -0.168
+Hispanic                                                          NA
+Male                                                              NA
+                                       Alcohol Abuse Child
+Total Children                                      -0.270
+Total Placements                                    -0.259
+Avg Placement Duration                              -0.068
+Avg Removal Age                                     -0.013
+Physical Abuse                                       0.165
+Count Physical Abuse                                -0.264
+Sexual Abuse                                         0.010
+Count Sexual Abuse                                  -0.242
+Emotional Abuse Neglect                             -0.087
+Count Emotional Abuse Neglect                       -0.272
+Alcohol Abuse Child                                  1.000
+Count Alcohol Abuse Child                           -0.021
+Drug Abuse Child                                     0.025
+Count Drug Abuse Child                              -0.188
+Alcohol Abuse Parent                                 0.341
+Count Alcohol Abuse Parent                          -0.157
+Drug Abuse Parent                                    0.067
+Count Drug Abuse Parent                             -0.234
+Physical Neglect                                     0.114
+Count Physical Neglect                              -0.242
+Domestic Violence                                    0.263
+Count Domestic Violence                             -0.238
+Inadequate Housing                                   0.110
+Count Inadequate Housing                            -0.227
+Child Behavior Problem                               0.012
+Count Child Behavior Problem                        -0.174
+Child Disability                                    -0.059
+Count Child Disability                              -0.184
+Incarceration of Parent                              0.003
+Count Incarceration of Parent                       -0.219
+Death of Parent                                      0.248
+Count Death of Parent                               -0.242
+Caregiver Inability to Cope                          0.078
+Count Caregiver Inability to Cope                   -0.225
+Abandonment                                         -0.155
+Count Abandonment                                   -0.220
+Inadequate Supervision                               0.056
+Count Inadequate Supervision                        -0.220
+Medical Neglect                                     -0.127
+Count Medical Neglect                               -0.239
+Csec                                                -0.001
+Count Csec                                          -0.143
+Labor Trafficking                                    0.113
+Count Labor Trafficking                             -0.090
+Sexual Abuse Sexual Exploitation                     0.186
+Count Sexual Abuse Sexual Exploitation              -0.119
+Race Black                                          -0.270
+Race White                                           0.251
+Race Asian                                          -0.058
+Race American                                        0.177
+Race Hawaiian                                       -0.094
+Fl Multi Rcl                                        -0.035
+Hispanic                                                NA
+Male                                                    NA
+                                       Count Alcohol Abuse Child
+Total Children                                             0.834
+Total Placements                                           0.848
+Avg Placement Duration                                    -0.590
+Avg Removal Age                                            0.722
+Physical Abuse                                             0.038
+Count Physical Abuse                                       0.829
+Sexual Abuse                                               0.041
+Count Sexual Abuse                                         0.852
+Emotional Abuse Neglect                                    0.447
+Count Emotional Abuse Neglect                              0.667
+Alcohol Abuse Child                                       -0.021
+Count Alcohol Abuse Child                                  1.000
+Drug Abuse Child                                           0.138
+Count Drug Abuse Child                                     0.900
+Alcohol Abuse Parent                                      -0.292
+Count Alcohol Abuse Parent                                 0.910
+Drug Abuse Parent                                         -0.488
+Count Drug Abuse Parent                                    0.877
+Physical Neglect                                           0.101
+Count Physical Neglect                                     0.826
+Domestic Violence                                         -0.399
+Count Domestic Violence                                    0.828
+Inadequate Housing                                         0.001
+Count Inadequate Housing                                   0.869
+Child Behavior Problem                                     0.742
+Count Child Behavior Problem                               0.857
+Child Disability                                           0.170
+Count Child Disability                                     0.890
+Incarceration of Parent                                   -0.165
+Count Incarceration of Parent                              0.889
+Death of Parent                                            0.173
+Count Death of Parent                                      0.792
+Caregiver Inability to Cope                                0.386
+Count Caregiver Inability to Cope                          0.829
+Abandonment                                                0.683
+Count Abandonment                                          0.866
+Inadequate Supervision                                     0.114
+Count Inadequate Supervision                               0.867
+Medical Neglect                                           -0.036
+Count Medical Neglect                                      0.865
+Csec                                                       0.193
+Count Csec                                                 0.649
+Labor Trafficking                                          0.348
+Count Labor Trafficking                                    0.663
+Sexual Abuse Sexual Exploitation                           0.162
+Count Sexual Abuse Sexual Exploitation                     0.825
+Race Black                                                 0.453
+Race White                                                -0.427
+Race Asian                                                 0.075
+Race American                                             -0.166
+Race Hawaiian                                             -0.092
+Fl Multi Rcl                                              -0.061
+Hispanic                                                      NA
+Male                                                          NA
+                                       Drug Abuse Child Count Drug Abuse Child
+Total Children                                   -0.014                  0.896
+Total Placements                                  0.005                  0.936
+Avg Placement Duration                           -0.043                 -0.510
+Avg Removal Age                                   0.257                  0.692
+Physical Abuse                                   -0.175                  0.023
+Count Physical Abuse                             -0.015                  0.922
+Sexual Abuse                                     -0.279                  0.041
+Count Sexual Abuse                                0.035                  0.958
+Emotional Abuse Neglect                          -0.151                  0.414
+Count Emotional Abuse Neglect                    -0.113                  0.733
+Alcohol Abuse Child                               0.025                 -0.188
+Count Alcohol Abuse Child                         0.138                  0.900
+Drug Abuse Child                                  1.000                  0.179
+Count Drug Abuse Child                            0.179                  1.000
+Alcohol Abuse Parent                              0.139                 -0.437
+Count Alcohol Abuse Parent                        0.031                  0.849
+Drug Abuse Parent                                 0.059                 -0.536
+Count Drug Abuse Parent                           0.027                  0.906
+Physical Neglect                                  0.107                  0.026
+Count Physical Neglect                           -0.011                  0.884
+Domestic Violence                                -0.066                 -0.452
+Count Domestic Violence                          -0.020                  0.843
+Inadequate Housing                               -0.016                 -0.112
+Count Inadequate Housing                          0.002                  0.886
+Child Behavior Problem                            0.322                  0.701
+Count Child Behavior Problem                      0.093                  0.920
+Child Disability                                  0.036                  0.126
+Count Child Disability                            0.090                  0.931
+Incarceration of Parent                           0.260                 -0.190
+Count Incarceration of Parent                     0.091                  0.938
+Death of Parent                                   0.268                  0.189
+Count Death of Parent                             0.033                  0.909
+Caregiver Inability to Cope                       0.214                  0.388
+Count Caregiver Inability to Cope                 0.065                  0.953
+Abandonment                                       0.242                  0.648
+Count Abandonment                                 0.053                  0.946
+Inadequate Supervision                            0.087                  0.009
+Count Inadequate Supervision                      0.016                  0.899
+Medical Neglect                                   0.073                 -0.069
+Count Medical Neglect                             0.024                  0.916
+Csec                                             -0.026                  0.245
+Count Csec                                        0.119                  0.782
+Labor Trafficking                                 0.168                  0.269
+Count Labor Trafficking                           0.040                  0.680
+Sexual Abuse Sexual Exploitation                  0.115                  0.147
+Count Sexual Abuse Sexual Exploitation            0.173                  0.905
+Race Black                                       -0.189                  0.534
+Race White                                        0.173                 -0.524
+Race Asian                                       -0.219                  0.048
+Race American                                     0.112                 -0.161
+Race Hawaiian                                    -0.197                 -0.105
+Fl Multi Rcl                                      0.045                 -0.132
+Hispanic                                             NA                     NA
+Male                                                 NA                     NA
+                                       Alcohol Abuse Parent
+Total Children                                       -0.442
+Total Placements                                     -0.466
+Avg Placement Duration                                0.102
+Avg Removal Age                                      -0.243
+Physical Abuse                                       -0.254
+Count Physical Abuse                                 -0.479
+Sexual Abuse                                         -0.030
+Count Sexual Abuse                                   -0.479
+Emotional Abuse Neglect                              -0.349
+Count Emotional Abuse Neglect                        -0.445
+Alcohol Abuse Child                                   0.341
+Count Alcohol Abuse Child                            -0.292
+Drug Abuse Child                                      0.139
+Count Drug Abuse Child                               -0.437
+Alcohol Abuse Parent                                  1.000
+Count Alcohol Abuse Parent                           -0.250
+Drug Abuse Parent                                     0.363
+Count Drug Abuse Parent                              -0.386
+Physical Neglect                                      0.208
+Count Physical Neglect                               -0.435
+Domestic Violence                                     0.298
+Count Domestic Violence                              -0.351
+Inadequate Housing                                    0.441
+Count Inadequate Housing                             -0.374
+Child Behavior Problem                               -0.334
+Count Child Behavior Problem                         -0.446
+Child Disability                                     -0.096
+Count Child Disability                               -0.418
+Incarceration of Parent                               0.307
+Count Incarceration of Parent                        -0.411
+Death of Parent                                      -0.058
+Count Death of Parent                                -0.494
+Caregiver Inability to Cope                          -0.224
+Count Caregiver Inability to Cope                    -0.489
+Abandonment                                          -0.209
+Count Abandonment                                    -0.471
+Inadequate Supervision                                0.420
+Count Inadequate Supervision                         -0.366
+Medical Neglect                                      -0.053
+Count Medical Neglect                                -0.441
+Csec                                                 -0.182
+Count Csec                                           -0.410
+Labor Trafficking                                    -0.005
+Count Labor Trafficking                              -0.227
+Sexual Abuse Sexual Exploitation                     -0.326
+Count Sexual Abuse Sexual Exploitation               -0.434
+Race Black                                           -0.519
+Race White                                            0.512
+Race Asian                                            0.143
+Race American                                         0.182
+Race Hawaiian                                         0.312
+Fl Multi Rcl                                          0.283
+Hispanic                                                 NA
+Male                                                     NA
+                                       Count Alcohol Abuse Parent
+Total Children                                              0.914
+Total Placements                                            0.893
+Avg Placement Duration                                     -0.488
+Avg Removal Age                                             0.594
+Physical Abuse                                              0.026
+Count Physical Abuse                                        0.880
+Sexual Abuse                                               -0.026
+Count Sexual Abuse                                          0.853
+Emotional Abuse Neglect                                     0.520
+Count Emotional Abuse Neglect                               0.772
+Alcohol Abuse Child                                        -0.157
+Count Alcohol Abuse Child                                   0.910
+Drug Abuse Child                                            0.031
+Count Drug Abuse Child                                      0.849
+Alcohol Abuse Parent                                       -0.250
+Count Alcohol Abuse Parent                                  1.000
+Drug Abuse Parent                                          -0.445
+Count Drug Abuse Parent                                     0.953
+Physical Neglect                                            0.111
+Count Physical Neglect                                      0.890
+Domestic Violence                                          -0.303
+Count Domestic Violence                                     0.955
+Inadequate Housing                                          0.075
+Count Inadequate Housing                                    0.958
+Child Behavior Problem                                      0.600
+Count Child Behavior Problem                                0.765
+Child Disability                                            0.112
+Count Child Disability                                      0.868
+Incarceration of Parent                                    -0.178
+Count Incarceration of Parent                               0.908
+Death of Parent                                             0.126
+Count Death of Parent                                       0.780
+Caregiver Inability to Cope                                 0.282
+Count Caregiver Inability to Cope                           0.798
+Abandonment                                                 0.574
+Count Abandonment                                           0.836
+Inadequate Supervision                                      0.186
+Count Inadequate Supervision                                0.953
+Medical Neglect                                            -0.044
+Count Medical Neglect                                       0.919
+Csec                                                        0.098
+Count Csec                                                  0.480
+Labor Trafficking                                           0.332
+Count Labor Trafficking                                     0.696
+Sexual Abuse Sexual Exploitation                            0.077
+Count Sexual Abuse Sexual Exploitation                      0.668
+Race Black                                                  0.444
+Race White                                                 -0.413
+Race Asian                                                  0.143
+Race American                                              -0.165
+Race Hawaiian                                              -0.067
+Fl Multi Rcl                                               -0.054
+Hispanic                                                       NA
+Male                                                           NA
+                                       Drug Abuse Parent
+Total Children                                    -0.554
+Total Placements                                  -0.572
+Avg Placement Duration                             0.389
+Avg Removal Age                                   -0.694
+Physical Abuse                                    -0.343
+Count Physical Abuse                              -0.596
+Sexual Abuse                                      -0.378
+Count Sexual Abuse                                -0.605
+Emotional Abuse Neglect                           -0.466
+Count Emotional Abuse Neglect                     -0.510
+Alcohol Abuse Child                                0.067
+Count Alcohol Abuse Child                         -0.488
+Drug Abuse Child                                   0.059
+Count Drug Abuse Child                            -0.536
+Alcohol Abuse Parent                               0.363
+Count Alcohol Abuse Parent                        -0.445
+Drug Abuse Parent                                  1.000
+Count Drug Abuse Parent                           -0.472
+Physical Neglect                                  -0.062
+Count Physical Neglect                            -0.533
+Domestic Violence                                  0.549
+Count Domestic Violence                           -0.469
+Inadequate Housing                                 0.061
+Count Inadequate Housing                          -0.489
+Child Behavior Problem                            -0.656
+Count Child Behavior Problem                      -0.583
+Child Disability                                  -0.138
+Count Child Disability                            -0.567
+Incarceration of Parent                            0.382
+Count Incarceration of Parent                     -0.517
+Death of Parent                                    0.028
+Count Death of Parent                             -0.579
+Caregiver Inability to Cope                       -0.368
+Count Caregiver Inability to Cope                 -0.590
+Abandonment                                       -0.646
+Count Abandonment                                 -0.598
+Inadequate Supervision                             0.156
+Count Inadequate Supervision                      -0.502
+Medical Neglect                                   -0.079
+Count Medical Neglect                             -0.532
+Csec                                              -0.314
+Count Csec                                        -0.504
+Labor Trafficking                                 -0.123
+Count Labor Trafficking                           -0.376
+Sexual Abuse Sexual Exploitation                  -0.075
+Count Sexual Abuse Sexual Exploitation            -0.538
+Race Black                                        -0.748
+Race White                                         0.748
+Race Asian                                        -0.028
+Race American                                      0.210
+Race Hawaiian                                     -0.090
+Fl Multi Rcl                                       0.102
+Hispanic                                              NA
+Male                                                  NA
+                                       Count Drug Abuse Parent Physical Neglect
+Total Children                                           0.978            0.063
+Total Placements                                         0.964            0.045
+Avg Placement Duration                                  -0.413           -0.148
+Avg Removal Age                                          0.562            0.109
+Physical Abuse                                           0.021            0.209
+Count Physical Abuse                                     0.950            0.048
+Sexual Abuse                                            -0.041            0.047
+Count Sexual Abuse                                       0.919            0.025
+Emotional Abuse Neglect                                  0.577            0.059
+Count Emotional Abuse Neglect                            0.861            0.051
+Alcohol Abuse Child                                     -0.234            0.114
+Count Alcohol Abuse Child                                0.877            0.101
+Drug Abuse Child                                         0.027            0.107
+Count Drug Abuse Child                                   0.906            0.026
+Alcohol Abuse Parent                                    -0.386            0.208
+Count Alcohol Abuse Parent                               0.953            0.111
+Drug Abuse Parent                                       -0.472           -0.062
+Count Drug Abuse Parent                                  1.000            0.102
+Physical Neglect                                         0.102            1.000
+Count Physical Neglect                                   0.958            0.189
+Domestic Violence                                       -0.367           -0.017
+Count Domestic Violence                                  0.977            0.073
+Inadequate Housing                                       0.006            0.323
+Count Inadequate Housing                                 0.985            0.104
+Child Behavior Problem                                   0.578            0.156
+Count Child Behavior Problem                             0.796            0.013
+Child Disability                                         0.074            0.036
+Count Child Disability                                   0.889            0.086
+Incarceration of Parent                                 -0.206           -0.001
+Count Incarceration of Parent                            0.965            0.089
+Death of Parent                                          0.152           -0.064
+Count Death of Parent                                    0.875            0.062
+Caregiver Inability to Cope                              0.304            0.379
+Count Caregiver Inability to Cope                        0.882            0.053
+Abandonment                                              0.556            0.139
+Count Abandonment                                        0.891            0.024
+Inadequate Supervision                                   0.088            0.521
+Count Inadequate Supervision                             0.967            0.140
+Medical Neglect                                         -0.046            0.199
+Count Medical Neglect                                    0.979            0.089
+Csec                                                     0.116           -0.162
+Count Csec                                               0.542           -0.111
+Labor Trafficking                                        0.282            0.386
+Count Labor Trafficking                                  0.648            0.147
+Sexual Abuse Sexual Exploitation                         0.079           -0.012
+Count Sexual Abuse Sexual Exploitation                   0.724            0.012
+Race Black                                               0.518            0.087
+Race White                                              -0.498           -0.052
+Race Asian                                               0.114            0.093
+Race American                                           -0.171            0.098
+Race Hawaiian                                           -0.090            0.022
+Fl Multi Rcl                                            -0.113            0.015
+Hispanic                                                    NA               NA
+Male                                                        NA               NA
+                                       Count Physical Neglect Domestic Violence
+Total Children                                          0.959            -0.406
+Total Placements                                        0.969            -0.435
+Avg Placement Duration                                 -0.403             0.371
+Avg Removal Age                                         0.579            -0.529
+Physical Abuse                                          0.060             0.166
+Count Physical Abuse                                    0.962            -0.436
+Sexual Abuse                                           -0.021            -0.223
+Count Sexual Abuse                                      0.935            -0.465
+Emotional Abuse Neglect                                 0.597            -0.190
+Count Emotional Abuse Neglect                           0.910            -0.340
+Alcohol Abuse Child                                    -0.242             0.263
+Count Alcohol Abuse Child                               0.826            -0.399
+Drug Abuse Child                                       -0.011            -0.066
+Count Drug Abuse Child                                  0.884            -0.452
+Alcohol Abuse Parent                                   -0.435             0.298
+Count Alcohol Abuse Parent                              0.890            -0.303
+Drug Abuse Parent                                      -0.533             0.549
+Count Drug Abuse Parent                                 0.958            -0.367
+Physical Neglect                                        0.189            -0.017
+Count Physical Neglect                                  1.000            -0.420
+Domestic Violence                                      -0.420             1.000
+Count Domestic Violence                                 0.925            -0.282
+Inadequate Housing                                     -0.049            -0.058
+Count Inadequate Housing                                0.958            -0.357
+Child Behavior Problem                                  0.607            -0.479
+Count Child Behavior Problem                            0.846            -0.470
+Child Disability                                        0.094            -0.243
+Count Child Disability                                  0.898            -0.434
+Incarceration of Parent                                -0.244            -0.017
+Count Incarceration of Parent                           0.940            -0.428
+Death of Parent                                         0.187             0.080
+Count Death of Parent                                   0.937            -0.477
+Caregiver Inability to Cope                             0.342            -0.403
+Count Caregiver Inability to Cope                       0.908            -0.487
+Abandonment                                             0.575            -0.599
+Count Abandonment                                       0.928            -0.473
+Inadequate Supervision                                  0.100             0.117
+Count Inadequate Supervision                            0.970            -0.358
+Medical Neglect                                        -0.059            -0.062
+Count Medical Neglect                                   0.955            -0.377
+Csec                                                    0.135            -0.018
+Count Csec                                              0.579            -0.464
+Labor Trafficking                                       0.306            -0.165
+Count Labor Trafficking                                 0.673            -0.288
+Sexual Abuse Sexual Exploitation                        0.084             0.163
+Count Sexual Abuse Sexual Exploitation                  0.734            -0.481
+Race Black                                              0.591            -0.479
+Race White                                             -0.574             0.490
+Race Asian                                              0.099            -0.074
+Race American                                          -0.151             0.072
+Race Hawaiian                                          -0.093            -0.095
+Fl Multi Rcl                                           -0.151             0.128
+Hispanic                                                   NA                NA
+Male                                                       NA                NA
+                                       Count Domestic Violence
+Total Children                                           0.965
+Total Placements                                         0.939
+Avg Placement Duration                                  -0.372
+Avg Removal Age                                          0.516
+Physical Abuse                                           0.050
+Count Physical Abuse                                     0.929
+Sexual Abuse                                            -0.040
+Count Sexual Abuse                                       0.884
+Emotional Abuse Neglect                                  0.606
+Count Emotional Abuse Neglect                            0.874
+Alcohol Abuse Child                                     -0.238
+Count Alcohol Abuse Child                                0.828
+Drug Abuse Child                                        -0.020
+Count Drug Abuse Child                                   0.843
+Alcohol Abuse Parent                                    -0.351
+Count Alcohol Abuse Parent                               0.955
+Drug Abuse Parent                                       -0.469
+Count Drug Abuse Parent                                  0.977
+Physical Neglect                                         0.073
+Count Physical Neglect                                   0.925
+Domestic Violence                                       -0.282
+Count Domestic Violence                                  1.000
+Inadequate Housing                                       0.011
+Count Inadequate Housing                                 0.969
+Child Behavior Problem                                   0.527
+Count Child Behavior Problem                             0.741
+Child Disability                                         0.068
+Count Child Disability                                   0.852
+Incarceration of Parent                                 -0.231
+Count Incarceration of Parent                            0.925
+Death of Parent                                          0.122
+Count Death of Parent                                    0.812
+Caregiver Inability to Cope                              0.250
+Count Caregiver Inability to Cope                        0.825
+Abandonment                                              0.507
+Count Abandonment                                        0.851
+Inadequate Supervision                                   0.105
+Count Inadequate Supervision                             0.956
+Medical Neglect                                         -0.024
+Count Medical Neglect                                    0.961
+Csec                                                     0.079
+Count Csec                                               0.443
+Labor Trafficking                                        0.264
+Count Labor Trafficking                                  0.633
+Sexual Abuse Sexual Exploitation                         0.052
+Count Sexual Abuse Sexual Exploitation                   0.636
+Race Black                                               0.490
+Race White                                              -0.466
+Race Asian                                               0.117
+Race American                                           -0.169
+Race Hawaiian                                           -0.100
+Fl Multi Rcl                                            -0.097
+Hispanic                                                    NA
+Male                                                        NA
+                                       Inadequate Housing
+Total Children                                     -0.058
+Total Placements                                   -0.110
+Avg Placement Duration                             -0.123
+Avg Removal Age                                     0.018
+Physical Abuse                                     -0.220
+Count Physical Abuse                               -0.126
+Sexual Abuse                                        0.132
+Count Sexual Abuse                                 -0.153
+Emotional Abuse Neglect                             0.010
+Count Emotional Abuse Neglect                      -0.102
+Alcohol Abuse Child                                 0.110
+Count Alcohol Abuse Child                           0.001
+Drug Abuse Child                                   -0.016
+Count Drug Abuse Child                             -0.112
+Alcohol Abuse Parent                                0.441
+Count Alcohol Abuse Parent                          0.075
+Drug Abuse Parent                                   0.061
+Count Drug Abuse Parent                             0.006
+Physical Neglect                                    0.323
+Count Physical Neglect                             -0.049
+Domestic Violence                                  -0.058
+Count Domestic Violence                             0.011
+Inadequate Housing                                  1.000
+Count Inadequate Housing                            0.050
+Child Behavior Problem                             -0.122
+Count Child Behavior Problem                       -0.181
+Child Disability                                   -0.203
+Count Child Disability                             -0.124
+Incarceration of Parent                             0.084
+Count Incarceration of Parent                      -0.040
+Death of Parent                                    -0.112
+Count Death of Parent                              -0.152
+Caregiver Inability to Cope                         0.111
+Count Caregiver Inability to Cope                  -0.161
+Abandonment                                         0.017
+Count Abandonment                                  -0.167
+Inadequate Supervision                              0.367
+Count Inadequate Supervision                       -0.006
+Medical Neglect                                     0.031
+Count Medical Neglect                              -0.034
+Csec                                               -0.126
+Count Csec                                         -0.250
+Labor Trafficking                                   0.206
+Count Labor Trafficking                             0.027
+Sexual Abuse Sexual Exploitation                   -0.355
+Count Sexual Abuse Sexual Exploitation             -0.207
+Race Black                                         -0.190
+Race White                                          0.213
+Race Asian                                          0.061
+Race American                                      -0.041
+Race Hawaiian                                       0.204
+Fl Multi Rcl                                        0.212
+Hispanic                                               NA
+Male                                                   NA
+                                       Count Inadequate Housing
+Total Children                                            0.961
+Total Placements                                          0.955
+Avg Placement Duration                                   -0.415
+Avg Removal Age                                           0.561
+Physical Abuse                                            0.038
+Count Physical Abuse                                      0.944
+Sexual Abuse                                             -0.041
+Count Sexual Abuse                                        0.906
+Emotional Abuse Neglect                                   0.586
+Count Emotional Abuse Neglect                             0.866
+Alcohol Abuse Child                                      -0.227
+Count Alcohol Abuse Child                                 0.869
+Drug Abuse Child                                          0.002
+Count Drug Abuse Child                                    0.886
+Alcohol Abuse Parent                                     -0.374
+Count Alcohol Abuse Parent                                0.958
+Drug Abuse Parent                                        -0.489
+Count Drug Abuse Parent                                   0.985
+Physical Neglect                                          0.104
+Count Physical Neglect                                    0.958
+Domestic Violence                                        -0.357
+Count Domestic Violence                                   0.969
+Inadequate Housing                                        0.050
+Count Inadequate Housing                                  1.000
+Child Behavior Problem                                    0.575
+Count Child Behavior Problem                              0.807
+Child Disability                                          0.066
+Count Child Disability                                    0.882
+Incarceration of Parent                                  -0.227
+Count Incarceration of Parent                             0.944
+Death of Parent                                           0.152
+Count Death of Parent                                     0.871
+Caregiver Inability to Cope                               0.292
+Count Caregiver Inability to Cope                         0.869
+Abandonment                                               0.542
+Count Abandonment                                         0.889
+Inadequate Supervision                                    0.101
+Count Inadequate Supervision                              0.976
+Medical Neglect                                          -0.037
+Count Medical Neglect                                     0.976
+Csec                                                      0.124
+Count Csec                                                0.545
+Labor Trafficking                                         0.302
+Count Labor Trafficking                                   0.688
+Sexual Abuse Sexual Exploitation                          0.064
+Count Sexual Abuse Sexual Exploitation                    0.700
+Race Black                                                0.526
+Race White                                               -0.505
+Race Asian                                                0.107
+Race American                                            -0.165
+Race Hawaiian                                            -0.079
+Fl Multi Rcl                                             -0.105
+Hispanic                                                     NA
+Male                                                         NA
+                                       Child Behavior Problem
+Total Children                                          0.600
+Total Placements                                        0.619
+Avg Placement Duration                                 -0.609
+Avg Removal Age                                         0.888
+Physical Abuse                                          0.112
+Count Physical Abuse                                    0.615
+Sexual Abuse                                            0.053
+Count Sexual Abuse                                      0.674
+Emotional Abuse Neglect                                 0.447
+Count Emotional Abuse Neglect                           0.504
+Alcohol Abuse Child                                     0.012
+Count Alcohol Abuse Child                               0.742
+Drug Abuse Child                                        0.322
+Count Drug Abuse Child                                  0.701
+Alcohol Abuse Parent                                   -0.334
+Count Alcohol Abuse Parent                              0.600
+Drug Abuse Parent                                      -0.656
+Count Drug Abuse Parent                                 0.578
+Physical Neglect                                        0.156
+Count Physical Neglect                                  0.607
+Domestic Violence                                      -0.479
+Count Domestic Violence                                 0.527
+Inadequate Housing                                     -0.122
+Count Inadequate Housing                                0.575
+Child Behavior Problem                                  1.000
+Count Child Behavior Problem                            0.774
+Child Disability                                        0.230
+Count Child Disability                                  0.707
+Incarceration of Parent                                -0.185
+Count Incarceration of Parent                           0.638
+Death of Parent                                         0.268
+Count Death of Parent                                   0.681
+Caregiver Inability to Cope                             0.540
+Count Caregiver Inability to Cope                       0.660
+Abandonment                                             0.816
+Count Abandonment                                       0.719
+Inadequate Supervision                                  0.037
+Count Inadequate Supervision                            0.609
+Medical Neglect                                         0.057
+Count Medical Neglect                                   0.610
+Csec                                                    0.204
+Count Csec                                              0.588
+Labor Trafficking                                       0.351
+Count Labor Trafficking                                 0.478
+Sexual Abuse Sexual Exploitation                        0.268
+Count Sexual Abuse Sexual Exploitation                  0.719
+Race Black                                              0.528
+Race White                                             -0.513
+Race Asian                                              0.013
+Race American                                          -0.088
+Race Hawaiian                                          -0.140
+Fl Multi Rcl                                           -0.073
+Hispanic                                                   NA
+Male                                                       NA
+                                       Count Child Behavior Problem
+Total Children                                                0.820
+Total Placements                                              0.884
+Avg Placement Duration                                       -0.551
+Avg Removal Age                                               0.745
+Physical Abuse                                                0.047
+Count Physical Abuse                                          0.872
+Sexual Abuse                                                  0.072
+Count Sexual Abuse                                            0.930
+Emotional Abuse Neglect                                       0.479
+Count Emotional Abuse Neglect                                 0.760
+Alcohol Abuse Child                                          -0.174
+Count Alcohol Abuse Child                                     0.857
+Drug Abuse Child                                              0.093
+Count Drug Abuse Child                                        0.920
+Alcohol Abuse Parent                                         -0.446
+Count Alcohol Abuse Parent                                    0.765
+Drug Abuse Parent                                            -0.583
+Count Drug Abuse Parent                                       0.796
+Physical Neglect                                              0.013
+Count Physical Neglect                                        0.846
+Domestic Violence                                            -0.470
+Count Domestic Violence                                       0.741
+Inadequate Housing                                           -0.181
+Count Inadequate Housing                                      0.807
+Child Behavior Problem                                        0.774
+Count Child Behavior Problem                                  1.000
+Child Disability                                              0.120
+Count Child Disability                                        0.895
+Incarceration of Parent                                      -0.260
+Count Incarceration of Parent                                 0.846
+Death of Parent                                               0.222
+Count Death of Parent                                         0.926
+Caregiver Inability to Cope                                   0.357
+Count Caregiver Inability to Cope                             0.913
+Abandonment                                                   0.689
+Count Abandonment                                             0.973
+Inadequate Supervision                                       -0.031
+Count Inadequate Supervision                                  0.846
+Medical Neglect                                              -0.104
+Count Medical Neglect                                         0.829
+Csec                                                          0.284
+Count Csec                                                    0.827
+Labor Trafficking                                             0.245
+Count Labor Trafficking                                       0.668
+Sexual Abuse Sexual Exploitation                              0.143
+Count Sexual Abuse Sexual Exploitation                        0.892
+Race Black                                                    0.569
+Race White                                                   -0.561
+Race Asian                                                    0.042
+Race American                                                -0.142
+Race Hawaiian                                                -0.118
+Fl Multi Rcl                                                 -0.158
+Hispanic                                                         NA
+Male                                                             NA
+                                       Child Disability Count Child Disability
+Total Children                                    0.071                  0.898
+Total Placements                                  0.071                  0.921
+Avg Placement Duration                           -0.018                 -0.483
+Avg Removal Age                                   0.072                  0.650
+Physical Abuse                                   -0.007                  0.078
+Count Physical Abuse                              0.080                  0.923
+Sexual Abuse                                      0.093                  0.036
+Count Sexual Abuse                                0.088                  0.928
+Emotional Abuse Neglect                          -0.112                  0.430
+Count Emotional Abuse Neglect                    -0.013                  0.746
+Alcohol Abuse Child                              -0.059                 -0.184
+Count Alcohol Abuse Child                         0.170                  0.890
+Drug Abuse Child                                  0.036                  0.090
+Count Drug Abuse Child                            0.126                  0.931
+Alcohol Abuse Parent                             -0.096                 -0.418
+Count Alcohol Abuse Parent                        0.112                  0.868
+Drug Abuse Parent                                -0.138                 -0.567
+Count Drug Abuse Parent                           0.074                  0.889
+Physical Neglect                                  0.036                  0.086
+Count Physical Neglect                            0.094                  0.898
+Domestic Violence                                -0.243                 -0.434
+Count Domestic Violence                           0.068                  0.852
+Inadequate Housing                               -0.203                 -0.124
+Count Inadequate Housing                          0.066                  0.882
+Child Behavior Problem                            0.230                  0.707
+Count Child Behavior Problem                      0.120                  0.895
+Child Disability                                  1.000                  0.278
+Count Child Disability                            0.278                  1.000
+Incarceration of Parent                           0.205                 -0.226
+Count Incarceration of Parent                     0.107                  0.907
+Death of Parent                                  -0.135                  0.191
+Count Death of Parent                             0.085                  0.894
+Caregiver Inability to Cope                       0.168                  0.369
+Count Caregiver Inability to Cope                 0.094                  0.916
+Abandonment                                       0.125                  0.642
+Count Abandonment                                 0.094                  0.926
+Inadequate Supervision                            0.164                  0.051
+Count Inadequate Supervision                      0.099                  0.906
+Medical Neglect                                   0.369                 -0.054
+Count Medical Neglect                             0.097                  0.910
+Csec                                             -0.076                  0.219
+Count Csec                                        0.079                  0.711
+Labor Trafficking                                 0.149                  0.273
+Count Labor Trafficking                           0.075                  0.661
+Sexual Abuse Sexual Exploitation                 -0.043                  0.133
+Count Sexual Abuse Sexual Exploitation            0.144                  0.845
+Race Black                                        0.127                  0.582
+Race White                                       -0.100                 -0.561
+Race Asian                                        0.046                  0.107
+Race American                                    -0.087                 -0.171
+Race Hawaiian                                     0.006                 -0.092
+Fl Multi Rcl                                     -0.082                 -0.150
+Hispanic                                             NA                     NA
+Male                                                 NA                     NA
+                                       Incarceration of Parent
+Total Children                                          -0.248
+Total Placements                                        -0.267
+Avg Placement Duration                                   0.029
+Avg Removal Age                                         -0.117
+Physical Abuse                                          -0.496
+Count Physical Abuse                                    -0.297
+Sexual Abuse                                            -0.145
+Count Sexual Abuse                                      -0.263
+Emotional Abuse Neglect                                 -0.288
+Count Emotional Abuse Neglect                           -0.303
+Alcohol Abuse Child                                      0.003
+Count Alcohol Abuse Child                               -0.165
+Drug Abuse Child                                         0.260
+Count Drug Abuse Child                                  -0.190
+Alcohol Abuse Parent                                     0.307
+Count Alcohol Abuse Parent                              -0.178
+Drug Abuse Parent                                        0.382
+Count Drug Abuse Parent                                 -0.206
+Physical Neglect                                        -0.001
+Count Physical Neglect                                  -0.244
+Domestic Violence                                       -0.017
+Count Domestic Violence                                 -0.231
+Inadequate Housing                                       0.084
+Count Inadequate Housing                                -0.227
+Child Behavior Problem                                  -0.185
+Count Child Behavior Problem                            -0.260
+Child Disability                                         0.205
+Count Child Disability                                  -0.226
+Incarceration of Parent                                  1.000
+Count Incarceration of Parent                           -0.116
+Death of Parent                                          0.015
+Count Death of Parent                                   -0.265
+Caregiver Inability to Cope                              0.082
+Count Caregiver Inability to Cope                       -0.251
+Abandonment                                             -0.029
+Count Abandonment                                       -0.257
+Inadequate Supervision                                   0.318
+Count Inadequate Supervision                            -0.228
+Medical Neglect                                          0.027
+Count Medical Neglect                                   -0.250
+Csec                                                    -0.261
+Count Csec                                              -0.210
+Labor Trafficking                                        0.091
+Count Labor Trafficking                                 -0.224
+Sexual Abuse Sexual Exploitation                         0.087
+Count Sexual Abuse Sexual Exploitation                  -0.160
+Race Black                                              -0.443
+Race White                                               0.429
+Race Asian                                              -0.107
+Race American                                            0.423
+Race Hawaiian                                            0.014
+Fl Multi Rcl                                             0.153
+Hispanic                                                    NA
+Male                                                        NA
+                                       Count Incarceration of Parent
+Total Children                                                 0.954
+Total Placements                                               0.953
+Avg Placement Duration                                        -0.501
+Avg Removal Age                                                0.649
+Physical Abuse                                                 0.001
+Count Physical Abuse                                           0.930
+Sexual Abuse                                                   0.004
+Count Sexual Abuse                                             0.934
+Emotional Abuse Neglect                                        0.505
+Count Emotional Abuse Neglect                                  0.816
+Alcohol Abuse Child                                           -0.219
+Count Alcohol Abuse Child                                      0.889
+Drug Abuse Child                                               0.091
+Count Drug Abuse Child                                         0.938
+Alcohol Abuse Parent                                          -0.411
+Count Alcohol Abuse Parent                                     0.908
+Drug Abuse Parent                                             -0.517
+Count Drug Abuse Parent                                        0.965
+Physical Neglect                                               0.089
+Count Physical Neglect                                         0.940
+Domestic Violence                                             -0.428
+Count Domestic Violence                                        0.925
+Inadequate Housing                                            -0.040
+Count Inadequate Housing                                       0.944
+Child Behavior Problem                                         0.638
+Count Child Behavior Problem                                   0.846
+Child Disability                                               0.107
+Count Child Disability                                         0.907
+Incarceration of Parent                                       -0.116
+Count Incarceration of Parent                                  1.000
+Death of Parent                                                0.172
+Count Death of Parent                                          0.899
+Caregiver Inability to Cope                                    0.361
+Count Caregiver Inability to Cope                              0.905
+Abandonment                                                    0.636
+Count Abandonment                                              0.923
+Inadequate Supervision                                         0.064
+Count Inadequate Supervision                                   0.932
+Medical Neglect                                               -0.068
+Count Medical Neglect                                          0.954
+Csec                                                           0.168
+Count Csec                                                     0.618
+Labor Trafficking                                              0.258
+Count Labor Trafficking                                        0.568
+Sexual Abuse Sexual Exploitation                               0.125
+Count Sexual Abuse Sexual Exploitation                         0.791
+Race Black                                                     0.523
+Race White                                                    -0.500
+Race Asian                                                     0.091
+Race American                                                 -0.154
+Race Hawaiian                                                 -0.083
+Fl Multi Rcl                                                  -0.095
+Hispanic                                                          NA
+Male                                                              NA
+                                       Death of Parent Count Death of Parent
+Total Children                                   0.167                 0.908
+Total Placements                                 0.172                 0.939
+Avg Placement Duration                          -0.109                -0.407
+Avg Removal Age                                  0.107                 0.631
+Physical Abuse                                  -0.099                 0.047
+Count Physical Abuse                             0.169                 0.933
+Sexual Abuse                                    -0.385                 0.024
+Count Sexual Abuse                               0.184                 0.948
+Emotional Abuse Neglect                          0.173                 0.585
+Count Emotional Abuse Neglect                    0.175                 0.869
+Alcohol Abuse Child                              0.248                -0.242
+Count Alcohol Abuse Child                        0.173                 0.792
+Drug Abuse Child                                 0.268                 0.033
+Count Drug Abuse Child                           0.189                 0.909
+Alcohol Abuse Parent                            -0.058                -0.494
+Count Alcohol Abuse Parent                       0.126                 0.780
+Drug Abuse Parent                                0.028                -0.579
+Count Drug Abuse Parent                          0.152                 0.875
+Physical Neglect                                -0.064                 0.062
+Count Physical Neglect                           0.187                 0.937
+Domestic Violence                                0.080                -0.477
+Count Domestic Violence                          0.122                 0.812
+Inadequate Housing                              -0.112                -0.152
+Count Inadequate Housing                         0.152                 0.871
+Child Behavior Problem                           0.268                 0.681
+Count Child Behavior Problem                     0.222                 0.926
+Child Disability                                -0.135                 0.085
+Count Child Disability                           0.191                 0.894
+Incarceration of Parent                          0.015                -0.265
+Count Incarceration of Parent                    0.172                 0.899
+Death of Parent                                  1.000                 0.268
+Count Death of Parent                            0.268                 1.000
+Caregiver Inability to Cope                      0.212                 0.355
+Count Caregiver Inability to Cope                0.197                 0.935
+Abandonment                                      0.068                 0.635
+Count Abandonment                                0.208                 0.962
+Inadequate Supervision                          -0.023                -0.033
+Count Inadequate Supervision                     0.161                 0.892
+Medical Neglect                                 -0.210                -0.083
+Count Medical Neglect                            0.177                 0.904
+Csec                                            -0.010                 0.221
+Count Csec                                       0.157                 0.721
+Labor Trafficking                                0.068                 0.231
+Count Labor Trafficking                          0.110                 0.624
+Sexual Abuse Sexual Exploitation                 0.104                 0.116
+Count Sexual Abuse Sexual Exploitation           0.212                 0.839
+Race Black                                       0.120                 0.624
+Race White                                      -0.160                -0.623
+Race Asian                                      -0.117                 0.049
+Race American                                    0.262                -0.148
+Race Hawaiian                                   -0.067                -0.123
+Fl Multi Rcl                                    -0.109                -0.183
+Hispanic                                            NA                    NA
+Male                                                NA                    NA
+                                       Caregiver Inability to Cope
+Total Children                                               0.319
+Total Placements                                             0.327
+Avg Placement Duration                                      -0.435
+Avg Removal Age                                              0.462
+Physical Abuse                                               0.092
+Count Physical Abuse                                         0.342
+Sexual Abuse                                                -0.044
+Count Sexual Abuse                                           0.350
+Emotional Abuse Neglect                                      0.096
+Count Emotional Abuse Neglect                                0.171
+Alcohol Abuse Child                                          0.078
+Count Alcohol Abuse Child                                    0.386
+Drug Abuse Child                                             0.214
+Count Drug Abuse Child                                       0.388
+Alcohol Abuse Parent                                        -0.224
+Count Alcohol Abuse Parent                                   0.282
+Drug Abuse Parent                                           -0.368
+Count Drug Abuse Parent                                      0.304
+Physical Neglect                                             0.379
+Count Physical Neglect                                       0.342
+Domestic Violence                                           -0.403
+Count Domestic Violence                                      0.250
+Inadequate Housing                                           0.111
+Count Inadequate Housing                                     0.292
+Child Behavior Problem                                       0.540
+Count Child Behavior Problem                                 0.357
+Child Disability                                             0.168
+Count Child Disability                                       0.369
+Incarceration of Parent                                      0.082
+Count Incarceration of Parent                                0.361
+Death of Parent                                              0.212
+Count Death of Parent                                        0.355
+Caregiver Inability to Cope                                  1.000
+Count Caregiver Inability to Cope                            0.463
+Abandonment                                                  0.462
+Count Abandonment                                            0.353
+Inadequate Supervision                                       0.405
+Count Inadequate Supervision                                 0.330
+Medical Neglect                                              0.239
+Count Medical Neglect                                        0.350
+Csec                                                        -0.002
+Count Csec                                                   0.343
+Labor Trafficking                                            0.644
+Count Labor Trafficking                                      0.390
+Sexual Abuse Sexual Exploitation                             0.180
+Count Sexual Abuse Sexual Exploitation                       0.478
+Race Black                                                   0.333
+Race White                                                  -0.338
+Race Asian                                                  -0.058
+Race American                                                0.216
+Race Hawaiian                                               -0.109
+Fl Multi Rcl                                                -0.015
+Hispanic                                                        NA
+Male                                                            NA
+                                       Count Caregiver Inability to Cope
+Total Children                                                     0.911
+Total Placements                                                   0.956
+Avg Placement Duration                                            -0.460
+Avg Removal Age                                                    0.650
+Physical Abuse                                                     0.077
+Count Physical Abuse                                               0.958
+Sexual Abuse                                                       0.030
+Count Sexual Abuse                                                 0.966
+Emotional Abuse Neglect                                            0.433
+Count Emotional Abuse Neglect                                      0.776
+Alcohol Abuse Child                                               -0.225
+Count Alcohol Abuse Child                                          0.829
+Drug Abuse Child                                                   0.065
+Count Drug Abuse Child                                             0.953
+Alcohol Abuse Parent                                              -0.489
+Count Alcohol Abuse Parent                                         0.798
+Drug Abuse Parent                                                 -0.590
+Count Drug Abuse Parent                                            0.882
+Physical Neglect                                                   0.053
+Count Physical Neglect                                             0.908
+Domestic Violence                                                 -0.487
+Count Domestic Violence                                            0.825
+Inadequate Housing                                                -0.161
+Count Inadequate Housing                                           0.869
+Child Behavior Problem                                             0.660
+Count Child Behavior Problem                                       0.913
+Child Disability                                                   0.094
+Count Child Disability                                             0.916
+Incarceration of Parent                                           -0.251
+Count Incarceration of Parent                                      0.905
+Death of Parent                                                    0.197
+Count Death of Parent                                              0.935
+Caregiver Inability to Cope                                        0.463
+Count Caregiver Inability to Cope                                  1.000
+Abandonment                                                        0.616
+Count Abandonment                                                  0.957
+Inadequate Supervision                                            -0.008
+Count Inadequate Supervision                                       0.892
+Medical Neglect                                                   -0.075
+Count Medical Neglect                                              0.909
+Csec                                                               0.255
+Count Csec                                                         0.819
+Labor Trafficking                                                  0.314
+Count Labor Trafficking                                            0.712
+Sexual Abuse Sexual Exploitation                                   0.148
+Count Sexual Abuse Sexual Exploitation                             0.910
+Race Black                                                         0.610
+Race White                                                        -0.607
+Race Asian                                                         0.041
+Race American                                                     -0.152
+Race Hawaiian                                                     -0.106
+Fl Multi Rcl                                                      -0.160
+Hispanic                                                              NA
+Male                                                                  NA
+                                       Abandonment Count Abandonment
+Total Children                               0.583             0.918
+Total Placements                             0.588             0.962
+Avg Placement Duration                      -0.574            -0.500
+Avg Removal Age                              0.868             0.708
+Physical Abuse                              -0.050             0.043
+Count Physical Abuse                         0.576             0.950
+Sexual Abuse                                 0.145             0.038
+Count Sexual Abuse                           0.626             0.978
+Emotional Abuse Neglect                      0.425             0.544
+Count Emotional Abuse Neglect                0.489             0.856
+Alcohol Abuse Child                         -0.155            -0.220
+Count Alcohol Abuse Child                    0.683             0.866
+Drug Abuse Child                             0.242             0.053
+Count Drug Abuse Child                       0.648             0.946
+Alcohol Abuse Parent                        -0.209            -0.471
+Count Alcohol Abuse Parent                   0.574             0.836
+Drug Abuse Parent                           -0.646            -0.598
+Count Drug Abuse Parent                      0.556             0.891
+Physical Neglect                             0.139             0.024
+Count Physical Neglect                       0.575             0.928
+Domestic Violence                           -0.599            -0.473
+Count Domestic Violence                      0.507             0.851
+Inadequate Housing                           0.017            -0.167
+Count Inadequate Housing                     0.542             0.889
+Child Behavior Problem                       0.816             0.719
+Count Child Behavior Problem                 0.689             0.973
+Child Disability                             0.125             0.094
+Count Child Disability                       0.642             0.926
+Incarceration of Parent                     -0.029            -0.257
+Count Incarceration of Parent                0.636             0.923
+Death of Parent                              0.068             0.208
+Count Death of Parent                        0.635             0.962
+Caregiver Inability to Cope                  0.462             0.353
+Count Caregiver Inability to Cope            0.616             0.957
+Abandonment                                  1.000             0.677
+Count Abandonment                            0.677             1.000
+Inadequate Supervision                       0.114            -0.023
+Count Inadequate Supervision                 0.579             0.919
+Medical Neglect                             -0.034            -0.108
+Count Medical Neglect                        0.572             0.911
+Csec                                         0.236             0.246
+Count Csec                                   0.511             0.772
+Labor Trafficking                            0.357             0.253
+Count Labor Trafficking                      0.433             0.678
+Sexual Abuse Sexual Exploitation             0.141             0.128
+Count Sexual Abuse Sexual Exploitation       0.674             0.874
+Race Black                                   0.494             0.594
+Race White                                  -0.479            -0.584
+Race Asian                                   0.154             0.053
+Race American                               -0.149            -0.156
+Race Hawaiian                                0.072            -0.119
+Fl Multi Rcl                                 0.087            -0.154
+Hispanic                                        NA                NA
+Male                                            NA                NA
+                                       Inadequate Supervision
+Total Children                                          0.016
+Total Placements                                       -0.007
+Avg Placement Duration                                 -0.129
+Avg Removal Age                                         0.012
+Physical Abuse                                         -0.165
+Count Physical Abuse                                   -0.016
+Sexual Abuse                                           -0.147
+Count Sexual Abuse                                     -0.039
+Emotional Abuse Neglect                                -0.066
+Count Emotional Abuse Neglect                          -0.023
+Alcohol Abuse Child                                     0.056
+Count Alcohol Abuse Child                               0.114
+Drug Abuse Child                                        0.087
+Count Drug Abuse Child                                  0.009
+Alcohol Abuse Parent                                    0.420
+Count Alcohol Abuse Parent                              0.186
+Drug Abuse Parent                                       0.156
+Count Drug Abuse Parent                                 0.088
+Physical Neglect                                        0.521
+Count Physical Neglect                                  0.100
+Domestic Violence                                       0.117
+Count Domestic Violence                                 0.105
+Inadequate Housing                                      0.367
+Count Inadequate Housing                                0.101
+Child Behavior Problem                                  0.037
+Count Child Behavior Problem                           -0.031
+Child Disability                                        0.164
+Count Child Disability                                  0.051
+Incarceration of Parent                                 0.318
+Count Incarceration of Parent                           0.064
+Death of Parent                                        -0.023
+Count Death of Parent                                  -0.033
+Caregiver Inability to Cope                             0.405
+Count Caregiver Inability to Cope                      -0.008
+Abandonment                                             0.114
+Count Abandonment                                      -0.023
+Inadequate Supervision                                  1.000
+Count Inadequate Supervision                            0.178
+Medical Neglect                                         0.255
+Count Medical Neglect                                   0.064
+Csec                                                   -0.074
+Count Csec                                             -0.167
+Labor Trafficking                                       0.537
+Count Labor Trafficking                                 0.259
+Sexual Abuse Sexual Exploitation                       -0.073
+Count Sexual Abuse Sexual Exploitation                 -0.008
+Race Black                                             -0.081
+Race White                                              0.101
+Race Asian                                              0.132
+Race American                                           0.317
+Race Hawaiian                                           0.168
+Fl Multi Rcl                                            0.194
+Hispanic                                                   NA
+Male                                                       NA
+                                       Count Inadequate Supervision
+Total Children                                                0.950
+Total Placements                                              0.959
+Avg Placement Duration                                       -0.441
+Avg Removal Age                                               0.594
+Physical Abuse                                                0.046
+Count Physical Abuse                                          0.951
+Sexual Abuse                                                 -0.030
+Count Sexual Abuse                                            0.928
+Emotional Abuse Neglect                                       0.566
+Count Emotional Abuse Neglect                                 0.870
+Alcohol Abuse Child                                          -0.220
+Count Alcohol Abuse Child                                     0.867
+Drug Abuse Child                                              0.016
+Count Drug Abuse Child                                        0.899
+Alcohol Abuse Parent                                         -0.366
+Count Alcohol Abuse Parent                                    0.953
+Drug Abuse Parent                                            -0.502
+Count Drug Abuse Parent                                       0.967
+Physical Neglect                                              0.140
+Count Physical Neglect                                        0.970
+Domestic Violence                                            -0.358
+Count Domestic Violence                                       0.956
+Inadequate Housing                                           -0.006
+Count Inadequate Housing                                      0.976
+Child Behavior Problem                                        0.609
+Count Child Behavior Problem                                  0.846
+Child Disability                                              0.099
+Count Child Disability                                        0.906
+Incarceration of Parent                                      -0.228
+Count Incarceration of Parent                                 0.932
+Death of Parent                                               0.161
+Count Death of Parent                                         0.892
+Caregiver Inability to Cope                                   0.330
+Count Caregiver Inability to Cope                             0.892
+Abandonment                                                   0.579
+Count Abandonment                                             0.919
+Inadequate Supervision                                        0.178
+Count Inadequate Supervision                                  1.000
+Medical Neglect                                              -0.043
+Count Medical Neglect                                         0.960
+Csec                                                          0.131
+Count Csec                                                    0.568
+Labor Trafficking                                             0.351
+Count Labor Trafficking                                       0.760
+Sexual Abuse Sexual Exploitation                              0.091
+Count Sexual Abuse Sexual Exploitation                        0.740
+Race Black                                                    0.532
+Race White                                                   -0.511
+Race Asian                                                    0.099
+Race American                                                -0.148
+Race Hawaiian                                                -0.093
+Fl Multi Rcl                                                 -0.114
+Hispanic                                                         NA
+Male                                                             NA
+                                       Medical Neglect Count Medical Neglect
+Total Children                                  -0.063                 0.972
+Total Placements                                -0.089                 0.967
+Avg Placement Duration                           0.111                -0.393
+Avg Removal Age                                 -0.067                 0.570
+Physical Abuse                                   0.252                 0.086
+Count Physical Abuse                            -0.072                 0.964
+Sexual Abuse                                     0.087                -0.012
+Count Sexual Abuse                              -0.098                 0.934
+Emotional Abuse Neglect                          0.015                 0.599
+Count Emotional Abuse Neglect                   -0.071                 0.872
+Alcohol Abuse Child                             -0.127                -0.239
+Count Alcohol Abuse Child                       -0.036                 0.865
+Drug Abuse Child                                 0.073                 0.024
+Count Drug Abuse Child                          -0.069                 0.916
+Alcohol Abuse Parent                            -0.053                -0.441
+Count Alcohol Abuse Parent                      -0.044                 0.919
+Drug Abuse Parent                               -0.079                -0.532
+Count Drug Abuse Parent                         -0.046                 0.979
+Physical Neglect                                 0.199                 0.089
+Count Physical Neglect                          -0.059                 0.955
+Domestic Violence                               -0.062                -0.377
+Count Domestic Violence                         -0.024                 0.961
+Inadequate Housing                               0.031                -0.034
+Count Inadequate Housing                        -0.037                 0.976
+Child Behavior Problem                           0.057                 0.610
+Count Child Behavior Problem                    -0.104                 0.829
+Child Disability                                 0.369                 0.097
+Count Child Disability                          -0.054                 0.910
+Incarceration of Parent                          0.027                -0.250
+Count Incarceration of Parent                   -0.068                 0.954
+Death of Parent                                 -0.210                 0.177
+Count Death of Parent                           -0.083                 0.904
+Caregiver Inability to Cope                      0.239                 0.350
+Count Caregiver Inability to Cope               -0.075                 0.909
+Abandonment                                     -0.034                 0.572
+Count Abandonment                               -0.108                 0.911
+Inadequate Supervision                           0.255                 0.064
+Count Inadequate Supervision                    -0.043                 0.960
+Medical Neglect                                  1.000                 0.023
+Count Medical Neglect                            0.023                 1.000
+Csec                                            -0.311                 0.136
+Count Csec                                      -0.158                 0.574
+Labor Trafficking                                0.137                 0.297
+Count Labor Trafficking                          0.000                 0.672
+Sexual Abuse Sexual Exploitation                -0.164                 0.097
+Count Sexual Abuse Sexual Exploitation          -0.064                 0.770
+Race Black                                      -0.052                 0.572
+Race White                                       0.057                -0.556
+Race Asian                                      -0.068                 0.084
+Race American                                   -0.040                -0.174
+Race Hawaiian                                   -0.210                -0.115
+Fl Multi Rcl                                     0.103                -0.127
+Hispanic                                            NA                    NA
+Male                                                NA                    NA
+                                         Csec Count Csec Labor Trafficking
+Total Children                          0.145      0.587             0.264
+Total Placements                        0.189      0.682             0.257
+Avg Placement Duration                  0.021     -0.461            -0.237
+Avg Removal Age                         0.280      0.610             0.309
+Physical Abuse                         -0.053      0.032             0.018
+Count Physical Abuse                    0.189      0.680             0.272
+Sexual Abuse                            0.103      0.093            -0.065
+Count Sexual Abuse                      0.225      0.741             0.255
+Emotional Abuse Neglect                 0.058      0.131             0.140
+Count Emotional Abuse Neglect           0.084      0.422             0.196
+Alcohol Abuse Child                    -0.001     -0.143             0.113
+Count Alcohol Abuse Child               0.193      0.649             0.348
+Drug Abuse Child                       -0.026      0.119             0.168
+Count Drug Abuse Child                  0.245      0.782             0.269
+Alcohol Abuse Parent                   -0.182     -0.410            -0.005
+Count Alcohol Abuse Parent              0.098      0.480             0.332
+Drug Abuse Parent                      -0.314     -0.504            -0.123
+Count Drug Abuse Parent                 0.116      0.542             0.282
+Physical Neglect                       -0.162     -0.111             0.386
+Count Physical Neglect                  0.135      0.579             0.306
+Domestic Violence                      -0.018     -0.464            -0.165
+Count Domestic Violence                 0.079      0.443             0.264
+Inadequate Housing                     -0.126     -0.250             0.206
+Count Inadequate Housing                0.124      0.545             0.302
+Child Behavior Problem                  0.204      0.588             0.351
+Count Child Behavior Problem            0.284      0.827             0.245
+Child Disability                       -0.076      0.079             0.149
+Count Child Disability                  0.219      0.711             0.273
+Incarceration of Parent                -0.261     -0.210             0.091
+Count Incarceration of Parent           0.168      0.618             0.258
+Death of Parent                        -0.010      0.157             0.068
+Count Death of Parent                   0.221      0.721             0.231
+Caregiver Inability to Cope            -0.002      0.343             0.644
+Count Caregiver Inability to Cope       0.255      0.819             0.314
+Abandonment                             0.236      0.511             0.357
+Count Abandonment                       0.246      0.772             0.253
+Inadequate Supervision                 -0.074     -0.167             0.537
+Count Inadequate Supervision            0.131      0.568             0.351
+Medical Neglect                        -0.311     -0.158             0.137
+Count Medical Neglect                   0.136      0.574             0.297
+Csec                                    1.000      0.428             0.017
+Count Csec                              0.428      1.000             0.152
+Labor Trafficking                       0.017      0.152             1.000
+Count Labor Trafficking                 0.142      0.544             0.616
+Sexual Abuse Sexual Exploitation        0.167      0.171             0.304
+Count Sexual Abuse Sexual Exploitation  0.338      0.875             0.325
+Race Black                              0.372      0.471             0.105
+Race White                             -0.382     -0.480            -0.091
+Race Asian                              0.024     -0.003            -0.053
+Race American                          -0.017     -0.103             0.058
+Race Hawaiian                           0.052     -0.054            -0.097
+Fl Multi Rcl                           -0.091     -0.154             0.026
+Hispanic                                   NA         NA                NA
+Male                                       NA         NA                NA
+                                       Count Labor Trafficking
+Total Children                                           0.632
+Total Placements                                         0.684
+Avg Placement Duration                                  -0.314
+Avg Removal Age                                          0.468
+Physical Abuse                                           0.095
+Count Physical Abuse                                     0.710
+Sexual Abuse                                             0.000
+Count Sexual Abuse                                       0.701
+Emotional Abuse Neglect                                  0.343
+Count Emotional Abuse Neglect                            0.566
+Alcohol Abuse Child                                     -0.090
+Count Alcohol Abuse Child                                0.663
+Drug Abuse Child                                         0.040
+Count Drug Abuse Child                                   0.680
+Alcohol Abuse Parent                                    -0.227
+Count Alcohol Abuse Parent                               0.696
+Drug Abuse Parent                                       -0.376
+Count Drug Abuse Parent                                  0.648
+Physical Neglect                                         0.147
+Count Physical Neglect                                   0.673
+Domestic Violence                                       -0.288
+Count Domestic Violence                                  0.633
+Inadequate Housing                                       0.027
+Count Inadequate Housing                                 0.688
+Child Behavior Problem                                   0.478
+Count Child Behavior Problem                             0.668
+Child Disability                                         0.075
+Count Child Disability                                   0.661
+Incarceration of Parent                                 -0.224
+Count Incarceration of Parent                            0.568
+Death of Parent                                          0.110
+Count Death of Parent                                    0.624
+Caregiver Inability to Cope                              0.390
+Count Caregiver Inability to Cope                        0.712
+Abandonment                                              0.433
+Count Abandonment                                        0.678
+Inadequate Supervision                                   0.259
+Count Inadequate Supervision                             0.760
+Medical Neglect                                          0.000
+Count Medical Neglect                                    0.672
+Csec                                                     0.142
+Count Csec                                               0.544
+Labor Trafficking                                        0.616
+Count Labor Trafficking                                  1.000
+Sexual Abuse Sexual Exploitation                         0.143
+Count Sexual Abuse Sexual Exploitation                   0.664
+Race Black                                               0.392
+Race White                                              -0.387
+Race Asian                                              -0.019
+Race American                                           -0.092
+Race Hawaiian                                           -0.101
+Fl Multi Rcl                                            -0.066
+Hispanic                                                    NA
+Male                                                        NA
+                                       Sexual Abuse Sexual Exploitation
+Total Children                                                    0.080
+Total Placements                                                  0.090
+Avg Placement Duration                                           -0.115
+Avg Removal Age                                                   0.215
+Physical Abuse                                                    0.193
+Count Physical Abuse                                              0.088
+Sexual Abuse                                                     -0.082
+Count Sexual Abuse                                                0.113
+Emotional Abuse Neglect                                           0.040
+Count Emotional Abuse Neglect                                     0.026
+Alcohol Abuse Child                                               0.186
+Count Alcohol Abuse Child                                         0.162
+Drug Abuse Child                                                  0.115
+Count Drug Abuse Child                                            0.147
+Alcohol Abuse Parent                                             -0.326
+Count Alcohol Abuse Parent                                        0.077
+Drug Abuse Parent                                                -0.075
+Count Drug Abuse Parent                                           0.079
+Physical Neglect                                                 -0.012
+Count Physical Neglect                                            0.084
+Domestic Violence                                                 0.163
+Count Domestic Violence                                           0.052
+Inadequate Housing                                               -0.355
+Count Inadequate Housing                                          0.064
+Child Behavior Problem                                            0.268
+Count Child Behavior Problem                                      0.143
+Child Disability                                                 -0.043
+Count Child Disability                                            0.133
+Incarceration of Parent                                           0.087
+Count Incarceration of Parent                                     0.125
+Death of Parent                                                   0.104
+Count Death of Parent                                             0.116
+Caregiver Inability to Cope                                       0.180
+Count Caregiver Inability to Cope                                 0.148
+Abandonment                                                       0.141
+Count Abandonment                                                 0.128
+Inadequate Supervision                                           -0.073
+Count Inadequate Supervision                                      0.091
+Medical Neglect                                                  -0.164
+Count Medical Neglect                                             0.097
+Csec                                                              0.167
+Count Csec                                                        0.171
+Labor Trafficking                                                 0.304
+Count Labor Trafficking                                           0.143
+Sexual Abuse Sexual Exploitation                                  1.000
+Count Sexual Abuse Sexual Exploitation                            0.307
+Race Black                                                        0.003
+Race White                                                        0.002
+Race Asian                                                       -0.236
+Race American                                                     0.168
+Race Hawaiian                                                    -0.226
+Fl Multi Rcl                                                     -0.191
+Hispanic                                                             NA
+Male                                                                 NA
+                                       Count Sexual Abuse Sexual Exploitation
+Total Children                                                          0.742
+Total Placements                                                        0.801
+Avg Placement Duration                                                 -0.498
+Avg Removal Age                                                         0.696
+Physical Abuse                                                          0.041
+Count Physical Abuse                                                    0.799
+Sexual Abuse                                                            0.091
+Count Sexual Abuse                                                      0.858
+Emotional Abuse Neglect                                                 0.305
+Count Emotional Abuse Neglect                                           0.569
+Alcohol Abuse Child                                                    -0.119
+Count Alcohol Abuse Child                                               0.825
+Drug Abuse Child                                                        0.173
+Count Drug Abuse Child                                                  0.905
+Alcohol Abuse Parent                                                   -0.434
+Count Alcohol Abuse Parent                                              0.668
+Drug Abuse Parent                                                      -0.538
+Count Drug Abuse Parent                                                 0.724
+Physical Neglect                                                        0.012
+Count Physical Neglect                                                  0.734
+Domestic Violence                                                      -0.481
+Count Domestic Violence                                                 0.636
+Inadequate Housing                                                     -0.207
+Count Inadequate Housing                                                0.700
+Child Behavior Problem                                                  0.719
+Count Child Behavior Problem                                            0.892
+Child Disability                                                        0.144
+Count Child Disability                                                  0.845
+Incarceration of Parent                                                -0.160
+Count Incarceration of Parent                                           0.791
+Death of Parent                                                         0.212
+Count Death of Parent                                                   0.839
+Caregiver Inability to Cope                                             0.478
+Count Caregiver Inability to Cope                                       0.910
+Abandonment                                                             0.674
+Count Abandonment                                                       0.874
+Inadequate Supervision                                                 -0.008
+Count Inadequate Supervision                                            0.740
+Medical Neglect                                                        -0.064
+Count Medical Neglect                                                   0.770
+Csec                                                                    0.338
+Count Csec                                                              0.875
+Labor Trafficking                                                       0.325
+Count Labor Trafficking                                                 0.664
+Sexual Abuse Sexual Exploitation                                        0.307
+Count Sexual Abuse Sexual Exploitation                                  1.000
+Race Black                                                              0.516
+Race White                                                             -0.514
+Race Asian                                                             -0.013
+Race American                                                          -0.116
+Race Hawaiian                                                          -0.120
+Fl Multi Rcl                                                           -0.156
+Hispanic                                                                   NA
+Male                                                                       NA
+                                       Race Black Race White Race Asian
+Total Children                              0.581     -0.564      0.103
+Total Placements                            0.598     -0.587      0.073
+Avg Placement Duration                     -0.181      0.135     -0.199
+Avg Removal Age                             0.447     -0.429      0.039
+Physical Abuse                              0.224     -0.207     -0.103
+Count Physical Abuse                        0.630     -0.620      0.072
+Sexual Abuse                                0.120     -0.108     -0.071
+Count Sexual Abuse                          0.608     -0.600      0.041
+Emotional Abuse Neglect                     0.495     -0.495     -0.025
+Count Emotional Abuse Neglect               0.565     -0.559      0.040
+Alcohol Abuse Child                        -0.270      0.251     -0.058
+Count Alcohol Abuse Child                   0.453     -0.427      0.075
+Drug Abuse Child                           -0.189      0.173     -0.219
+Count Drug Abuse Child                      0.534     -0.524      0.048
+Alcohol Abuse Parent                       -0.519      0.512      0.143
+Count Alcohol Abuse Parent                  0.444     -0.413      0.143
+Drug Abuse Parent                          -0.748      0.748     -0.028
+Count Drug Abuse Parent                     0.518     -0.498      0.114
+Physical Neglect                            0.087     -0.052      0.093
+Count Physical Neglect                      0.591     -0.574      0.099
+Domestic Violence                          -0.479      0.490     -0.074
+Count Domestic Violence                     0.490     -0.466      0.117
+Inadequate Housing                         -0.190      0.213      0.061
+Count Inadequate Housing                    0.526     -0.505      0.107
+Child Behavior Problem                      0.528     -0.513      0.013
+Count Child Behavior Problem                0.569     -0.561      0.042
+Child Disability                            0.127     -0.100      0.046
+Count Child Disability                      0.582     -0.561      0.107
+Incarceration of Parent                    -0.443      0.429     -0.107
+Count Incarceration of Parent               0.523     -0.500      0.091
+Death of Parent                             0.120     -0.160     -0.117
+Count Death of Parent                       0.624     -0.623      0.049
+Caregiver Inability to Cope                 0.333     -0.338     -0.058
+Count Caregiver Inability to Cope           0.610     -0.607      0.041
+Abandonment                                 0.494     -0.479      0.154
+Count Abandonment                           0.594     -0.584      0.053
+Inadequate Supervision                     -0.081      0.101      0.132
+Count Inadequate Supervision                0.532     -0.511      0.099
+Medical Neglect                            -0.052      0.057     -0.068
+Count Medical Neglect                       0.572     -0.556      0.084
+Csec                                        0.372     -0.382      0.024
+Count Csec                                  0.471     -0.480     -0.003
+Labor Trafficking                           0.105     -0.091     -0.053
+Count Labor Trafficking                     0.392     -0.387     -0.019
+Sexual Abuse Sexual Exploitation            0.003      0.002     -0.236
+Count Sexual Abuse Sexual Exploitation      0.516     -0.514     -0.013
+Race Black                                  1.000     -0.991      0.067
+Race White                                 -0.991      1.000     -0.027
+Race Asian                                  0.067     -0.027      1.000
+Race American                              -0.130      0.063     -0.195
+Race Hawaiian                               0.148     -0.162      0.253
+Fl Multi Rcl                               -0.125      0.159      0.305
+Hispanic                                       NA         NA         NA
+Male                                           NA         NA         NA
+                                       Race American Race Hawaiian Fl Multi Rcl
+Total Children                                -0.180        -0.109       -0.139
+Total Placements                              -0.168        -0.108       -0.154
+Avg Placement Duration                         0.166        -0.124        0.022
+Avg Removal Age                               -0.140        -0.034        0.028
+Physical Abuse                                -0.153        -0.152       -0.036
+Count Physical Abuse                          -0.172        -0.117       -0.146
+Sexual Abuse                                  -0.246         0.129       -0.004
+Count Sexual Abuse                            -0.169        -0.120       -0.160
+Emotional Abuse Neglect                       -0.102        -0.221       -0.130
+Count Emotional Abuse Neglect                 -0.134        -0.142       -0.168
+Alcohol Abuse Child                            0.177        -0.094       -0.035
+Count Alcohol Abuse Child                     -0.166        -0.092       -0.061
+Drug Abuse Child                               0.112        -0.197        0.045
+Count Drug Abuse Child                        -0.161        -0.105       -0.132
+Alcohol Abuse Parent                           0.182         0.312        0.283
+Count Alcohol Abuse Parent                    -0.165        -0.067       -0.054
+Drug Abuse Parent                              0.210        -0.090        0.102
+Count Drug Abuse Parent                       -0.171        -0.090       -0.113
+Physical Neglect                               0.098         0.022        0.015
+Count Physical Neglect                        -0.151        -0.093       -0.151
+Domestic Violence                              0.072        -0.095        0.128
+Count Domestic Violence                       -0.169        -0.100       -0.097
+Inadequate Housing                            -0.041         0.204        0.212
+Count Inadequate Housing                      -0.165        -0.079       -0.105
+Child Behavior Problem                        -0.088        -0.140       -0.073
+Count Child Behavior Problem                  -0.142        -0.118       -0.158
+Child Disability                              -0.087         0.006       -0.082
+Count Child Disability                        -0.171        -0.092       -0.150
+Incarceration of Parent                        0.423         0.014        0.153
+Count Incarceration of Parent                 -0.154        -0.083       -0.095
+Death of Parent                                0.262        -0.067       -0.109
+Count Death of Parent                         -0.148        -0.123       -0.183
+Caregiver Inability to Cope                    0.216        -0.109       -0.015
+Count Caregiver Inability to Cope             -0.152        -0.106       -0.160
+Abandonment                                   -0.149         0.072        0.087
+Count Abandonment                             -0.156        -0.119       -0.154
+Inadequate Supervision                         0.317         0.168        0.194
+Count Inadequate Supervision                  -0.148        -0.093       -0.114
+Medical Neglect                               -0.040        -0.210        0.103
+Count Medical Neglect                         -0.174        -0.115       -0.127
+Csec                                          -0.017         0.052       -0.091
+Count Csec                                    -0.103        -0.054       -0.154
+Labor Trafficking                              0.058        -0.097        0.026
+Count Labor Trafficking                       -0.092        -0.101       -0.066
+Sexual Abuse Sexual Exploitation               0.168        -0.226       -0.191
+Count Sexual Abuse Sexual Exploitation        -0.116        -0.120       -0.156
+Race Black                                    -0.130         0.148       -0.125
+Race White                                     0.063        -0.162        0.159
+Race Asian                                    -0.195         0.253        0.305
+Race American                                  1.000         0.050       -0.061
+Race Hawaiian                                  0.050         1.000       -0.016
+Fl Multi Rcl                                  -0.061        -0.016        1.000
+Hispanic                                          NA            NA           NA
+Male                                              NA            NA           NA
+                                       Hispanic Male
+Total Children                               NA   NA
+Total Placements                             NA   NA
+Avg Placement Duration                       NA   NA
+Avg Removal Age                              NA   NA
+Physical Abuse                               NA   NA
+Count Physical Abuse                         NA   NA
+Sexual Abuse                                 NA   NA
+Count Sexual Abuse                           NA   NA
+Emotional Abuse Neglect                      NA   NA
+Count Emotional Abuse Neglect                NA   NA
+Alcohol Abuse Child                          NA   NA
+Count Alcohol Abuse Child                    NA   NA
+Drug Abuse Child                             NA   NA
+Count Drug Abuse Child                       NA   NA
+Alcohol Abuse Parent                         NA   NA
+Count Alcohol Abuse Parent                   NA   NA
+Drug Abuse Parent                            NA   NA
+Count Drug Abuse Parent                      NA   NA
+Physical Neglect                             NA   NA
+Count Physical Neglect                       NA   NA
+Domestic Violence                            NA   NA
+Count Domestic Violence                      NA   NA
+Inadequate Housing                           NA   NA
+Count Inadequate Housing                     NA   NA
+Child Behavior Problem                       NA   NA
+Count Child Behavior Problem                 NA   NA
+Child Disability                             NA   NA
+Count Child Disability                       NA   NA
+Incarceration of Parent                      NA   NA
+Count Incarceration of Parent                NA   NA
+Death of Parent                              NA   NA
+Count Death of Parent                        NA   NA
+Caregiver Inability to Cope                  NA   NA
+Count Caregiver Inability to Cope            NA   NA
+Abandonment                                  NA   NA
+Count Abandonment                            NA   NA
+Inadequate Supervision                       NA   NA
+Count Inadequate Supervision                 NA   NA
+Medical Neglect                              NA   NA
+Count Medical Neglect                        NA   NA
+Csec                                         NA   NA
+Count Csec                                   NA   NA
+Labor Trafficking                            NA   NA
+Count Labor Trafficking                      NA   NA
+Sexual Abuse Sexual Exploitation             NA   NA
+Count Sexual Abuse Sexual Exploitation       NA   NA
+Race Black                                   NA   NA
+Race White                                   NA   NA
+Race Asian                                   NA   NA
+Race American                                NA   NA
+Race Hawaiian                                NA   NA
+Fl Multi Rcl                                 NA   NA
+Hispanic                                     NA   NA
+Male                                         NA   NA
+
+--- Top 10 Counties by Children Count ---
+  COUNTY_NAME children_count
+ HILLSBOROUGH          34024
+   MIAMI-DADE          30099
+      BROWARD          26669
+     PINELLAS          24740
+        DUVAL          23356
+       ORANGE          22508
+         LEON          20563
+         POLK          18663
+   PALM BEACH          18566
+        PASCO          15395

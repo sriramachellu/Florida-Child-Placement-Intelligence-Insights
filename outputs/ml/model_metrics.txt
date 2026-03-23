@@ -1,0 +1,40 @@
+============================================================
+  RANDOM FOREST CLASSIFICATION REPORT
+============================================================
+
+              precision    recall  f1-score   support
+
+    Low Risk       0.85      1.00      0.92        11
+   High Risk       1.00      0.80      0.89        10
+
+    accuracy                           0.90        21
+   macro avg       0.92      0.90      0.90        21
+weighted avg       0.92      0.90      0.90        21
+
+CV Accuracy: 0.941 ± 0.054
+
+Median Threshold: 3563.0
+Training samples: 46
+Test samples:     21
+
+Features used:
+  pct_male                                 0.0000
+  pct_hispanic                             0.0000
+  pct_drug_abuse_parent                    0.0131
+  pct_alcohol_abuse_parent                 0.0167
+  pct_inadequate_housing                   0.0185
+  pct_sexual_abuse                         0.0204
+  pct_fl_race_white                        0.0222
+  pct_inadequate_supervision               0.0226
+  pct_domestic_violence                    0.0292
+  pct_physical_abuse                       0.0294
+  pct_fl_race_black                        0.0425
+  pct_physical_neglect                     0.0485
+  avg_placement_duration                   0.0637
+  avg_age_at_removal                       0.1206
+  pct_abandonment                          0.1908
+  placement_count                          0.3618
+
+Confusion Matrix:
+[[11  0]
+ [ 2  8]]

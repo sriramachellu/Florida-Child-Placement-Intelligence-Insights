@@ -1,0 +1,32 @@
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# VS Code
+.vscode/
+
+# Project Outputs
+outputs/**/*.csv
+outputs/*.csv
+*.pdf
+
+# Dataset raw files
+Child Placement Dataset/
+Counties/
+Counties (1)/
+Counties_-_Detailed_Shoreline/
+
